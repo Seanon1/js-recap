@@ -3,9 +3,9 @@ let firstName = 'John';
 console.log(`My name is ${firstName}.`);
 let message = " My name is " + firstName + ".";
 console.log(message);
-let age = '20';
-let age2 = parseInt(age);
-console.log(age2)
+// let age = '20';
+// let age2 = parseInt(age);
+// console.log(typeof age2)
 console.log(firstName.length);
 console.log(firstName.toLowerCase());
 console.log(firstName.toUpperCase());
@@ -63,5 +63,25 @@ console.log(lastName);
 console.log(typeof lastName);
 
 // null 
-let gender = null;
-console.log(typeof gender);
+// let gender = null;
+// console.log(typeof gender);
+
+let name = 'John';
+let age = 30;
+let isStudent = 'true';
+let gender = 'male';
+
+let person = {
+    name: 'John',
+    age: 30,
+    isStudent: true,
+    gender: 'male',
+    address: {
+        city: 'Nairobi',
+        street: 'Mpaka Road',
+    },
+};
+
+console.log(person.age);
+console.log(person.address.city);
+console.log(person['gender']);
