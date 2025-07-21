@@ -63,3 +63,5 @@ console.log(lastName);
 console.log(typeof lastName);
 
 // null 
+let gender = null;
+console.log(typeof gender);
