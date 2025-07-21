@@ -57,3 +57,9 @@ console.log(volume2.toFixed(2));
 let isLoggedIn = true;
 let hasPermission = false;
 
+// Undefined
+let lastName; 
+console.log(lastName);
+console.log(typeof lastName);
+
+// null 
