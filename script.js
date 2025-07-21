@@ -85,3 +85,4 @@ let person = {
 console.log(person.age);
 console.log(person.address.city);
 console.log(person['gender']);
+
