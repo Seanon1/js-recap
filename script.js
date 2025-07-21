@@ -82,7 +82,24 @@ let person = {
     },
 };
 
-console.log(person.age);
+person.age = 50;
+person.address.city = "Mombasa";
+person['name'] = 'Bob';
+console.log(person);
 console.log(person.address.city);
 console.log(person['gender']);
 
+// Arrays(lists)
+const laptops = ['Macbook', 'HP', 'Lenovo', 'Dell', 'Asus'];
+console.log(laptops);
+
+let mixedArray = ['John', true, 40, null, undefined, {gender: 'male'}];
+
+console.log(mixedArray);
+console.log(laptops[1]);
+console.log(mixedArray[5].gender);
+console.log(mixedArray.length);
+
+laptops.push("Toshiba");
+laptops.unshift('Asus');
+console.log(laptops);
