@@ -90,16 +90,45 @@ console.log(person.address.city);
 console.log(person['gender']);
 
 // Arrays(lists)
-const laptops = ['Macbook', 'HP', 'Lenovo', 'Dell', 'Asus'];
-console.log(laptops);
+// const laptops = ['Macbook', 'HP', 'Lenovo', 'Dell'];
+// console.log(laptops);
 
 let mixedArray = ['John', true, 40, null, undefined, {gender: 'male'}];
 
-console.log(mixedArray);
-console.log(laptops[1]);
-console.log(mixedArray[5].gender);
-console.log(mixedArray.length);
+// console.log(mixedArray);
+// console.log(laptops[1]);
+// console.log(mixedArray[5].gender);
+// console.log(mixedArray.length);
 
-laptops.push("Toshiba");
-laptops.unshift('Asus');
-console.log(laptops);
+// laptops.push("Toshiba");
+// laptops.unshift('Asus');
+//laptops
+// console.log(laptops);
+// console.log(laptops.indexOf('Dell'));
+
+// laptops.pop();
+// laptops.shift();
+// laptops.splice(2, 1);
+// console.log(laptops);
+
+// const sortedArray = laptops.sort();
+// console.log(sortedArray);
+
+// const reversedArray = sortedArray.reverse();
+// console.log(reversedArray);
+
+const list = [
+   {name: 'James', age:25, city:'Nairobi'},
+   {name: 'Eve', age:58, city:'Eldoret'},
+   {name: 'Adam', age:36, city:'Nairobi'},
+   {name: 'Daniella', age:49, city:'Eldoret'},
+];
+
+const group = Object.groupBy(list, (list) => list.city);
+console.log(group);
+
+const group2 = Object.groupBy(list, (list) => list.age);
+console.log(group2);
+
+
+
