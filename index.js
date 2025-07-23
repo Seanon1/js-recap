@@ -37,3 +37,14 @@ do {
 
 } while ( i < 20);
 
+// Functions
+function functionName(parameters) {
+
+};// This is the formula for declaration / experession
+
+
+function sayHello(name){
+    return ('Hello {$name}') 
+}
+
+console.log(sayHello);
